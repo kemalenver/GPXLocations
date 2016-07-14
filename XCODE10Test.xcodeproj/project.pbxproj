@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A396A521D3835440053ABCA /* Times Square.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A4E1D3835440053ABCA /* Times Square.gpx */; };
+		0A396A531D3835440053ABCA /* Bondi Beach.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A501D3835440053ABCA /* Bondi Beach.gpx */; };
+		0A396A541D3835440053ABCA /* Sydney Harbour Bridge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A511D3835440053ABCA /* Sydney Harbour Bridge.gpx */; };
 		CF11414E1D37C8C500996BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414D1D37C8C500996BE0 /* AppDelegate.swift */; };
 		CF1141501D37C8C500996BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414F1D37C8C500996BE0 /* ViewController.swift */; };
 		CF1141531D37C8C500996BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1141511D37C8C500996BE0 /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A396A4E1D3835440053ABCA /* Times Square.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Times Square.gpx"; sourceTree = "<group>"; };
+		0A396A501D3835440053ABCA /* Bondi Beach.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bondi Beach.gpx"; sourceTree = "<group>"; };
+		0A396A511D3835440053ABCA /* Sydney Harbour Bridge.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sydney Harbour Bridge.gpx"; sourceTree = "<group>"; };
 		CF11414A1D37C8C500996BE0 /* XCODE10Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCODE10Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11414D1D37C8C500996BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF11414F1D37C8C500996BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +64,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A396A4D1D3835440053ABCA /* NY Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0A396A4E1D3835440053ABCA /* Times Square.gpx */,
+			);
+			path = "NY Locations";
+			sourceTree = "<group>";
+		};
+		0A396A4F1D3835440053ABCA /* Sydney Locations */ = {
+			isa = PBXGroup;
+			children = (
+				0A396A501D3835440053ABCA /* Bondi Beach.gpx */,
+				0A396A511D3835440053ABCA /* Sydney Harbour Bridge.gpx */,
+			);
+			path = "Sydney Locations";
+			sourceTree = "<group>";
+		};
 		CF1141411D37C8C500996BE0 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +102,8 @@
 		CF11414C1D37C8C500996BE0 /* XCODE10Test */ = {
 			isa = PBXGroup;
 			children = (
+				0A396A4D1D3835440053ABCA /* NY Locations */,
+				0A396A4F1D3835440053ABCA /* Sydney Locations */,
 				CF1141871D37E6A600996BE0 /* London Locations */,
 				CF11414D1D37C8C500996BE0 /* AppDelegate.swift */,
 				CF11414F1D37C8C500996BE0 /* ViewController.swift */,
@@ -149,8 +174,8 @@
 				TargetAttributes = {
 					CF1141491D37C8C500996BE0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = X8ZDR3583F;
-						DevelopmentTeamName = "Samuel Simpson";
+						DevelopmentTeam = PDT9S226TJ;
+						DevelopmentTeamName = "Kemal Enver";
 						ProvisioningStyle = Automatic;
 					};
 					CF11415D1D37C8C500996BE0 = {
@@ -186,7 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A396A521D3835440053ABCA /* Times Square.gpx in Resources */,
+				0A396A531D3835440053ABCA /* Bondi Beach.gpx in Resources */,
 				CF1141581D37C8C500996BE0 /* LaunchScreen.storyboard in Resources */,
+				0A396A541D3835440053ABCA /* Sydney Harbour Bridge.gpx in Resources */,
 				CF1141551D37C8C500996BE0 /* Assets.xcassets in Resources */,
 				CF1141881D37E6A600996BE0 /* London Locations in Resources */,
 				CF1141531D37C8C500996BE0 /* Main.storyboard in Resources */,
@@ -408,6 +436,7 @@
 				CF1141691D37C8C500996BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF11416A1D37C8C500996BE0 /* Build configuration list for PBXNativeTarget "XCODE10TestTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +445,7 @@
 				CF11416C1D37C8C500996BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
