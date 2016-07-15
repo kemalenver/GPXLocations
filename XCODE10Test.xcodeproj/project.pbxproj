@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A396A5D1D38B3A20053ABCA /* Bondi Beach.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A591D38B3A20053ABCA /* Bondi Beach.gpx */; };
-		0A396A5E1D38B3A20053ABCA /* Sydney Harbour Bridge.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A5A1D38B3A20053ABCA /* Sydney Harbour Bridge.gpx */; };
 		0A396A601D38B3D30053ABCA /* NY Locations in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A5F1D38B3D30053ABCA /* NY Locations */; };
 		CF11414E1D37C8C500996BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414D1D37C8C500996BE0 /* AppDelegate.swift */; };
 		CF1141501D37C8C500996BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414F1D37C8C500996BE0 /* ViewController.swift */; };
@@ -17,6 +15,8 @@
 		CF1141581D37C8C500996BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1141561D37C8C500996BE0 /* LaunchScreen.storyboard */; };
 		CF1141631D37C8C500996BE0 /* XCODE10TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1141621D37C8C500996BE0 /* XCODE10TestTests.swift */; };
 		CF1141881D37E6A600996BE0 /* London Locations in Resources */ = {isa = PBXBuildFile; fileRef = CF1141871D37E6A600996BE0 /* London Locations */; };
+		CF2CE1581D38E47200C21153 /* Sydney Locations in Resources */ = {isa = PBXBuildFile; fileRef = CF2CE1571D38E47200C21153 /* Sydney Locations */; };
+		CF2CE15A1D390D7400C21153 /* Routes in Resources */ = {isa = PBXBuildFile; fileRef = CF2CE1591D390D7400C21153 /* Routes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A396A591D38B3A20053ABCA /* Bondi Beach.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bondi Beach.gpx"; sourceTree = "<group>"; };
-		0A396A5A1D38B3A20053ABCA /* Sydney Harbour Bridge.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Sydney Harbour Bridge.gpx"; sourceTree = "<group>"; };
 		0A396A5F1D38B3D30053ABCA /* NY Locations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "NY Locations"; sourceTree = "<group>"; };
 		CF11414A1D37C8C500996BE0 /* XCODE10Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCODE10Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11414D1D37C8C500996BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		CF1141621D37C8C500996BE0 /* XCODE10TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCODE10TestTests.swift; sourceTree = "<group>"; };
 		CF1141641D37C8C500996BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF1141871D37E6A600996BE0 /* London Locations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "London Locations"; sourceTree = "<group>"; };
+		CF2CE1571D38E47200C21153 /* Sydney Locations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sydney Locations"; sourceTree = "<group>"; };
+		CF2CE1591D390D7400C21153 /* Routes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Routes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +64,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A396A581D38B3A20053ABCA /* Sydney Locations */ = {
-			isa = PBXGroup;
-			children = (
-				0A396A591D38B3A20053ABCA /* Bondi Beach.gpx */,
-				0A396A5A1D38B3A20053ABCA /* Sydney Harbour Bridge.gpx */,
-			);
-			path = "Sydney Locations";
-			sourceTree = "<group>";
-		};
 		CF1141411D37C8C500996BE0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +85,9 @@
 		CF11414C1D37C8C500996BE0 /* XCODE10Test */ = {
 			isa = PBXGroup;
 			children = (
+				CF2CE1591D390D7400C21153 /* Routes */,
+				CF2CE1571D38E47200C21153 /* Sydney Locations */,
 				0A396A5F1D38B3D30053ABCA /* NY Locations */,
-				0A396A581D38B3A20053ABCA /* Sydney Locations */,
 				CF1141871D37E6A600996BE0 /* London Locations */,
 				CF11414D1D37C8C500996BE0 /* AppDelegate.swift */,
 				CF11414F1D37C8C500996BE0 /* ViewController.swift */,
@@ -166,8 +158,8 @@
 				TargetAttributes = {
 					CF1141491D37C8C500996BE0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PDT9S226TJ;
-						DevelopmentTeamName = "Kemal Enver";
+						DevelopmentTeam = X8ZDR3583F;
+						DevelopmentTeamName = "Samuel Simpson";
 						ProvisioningStyle = Automatic;
 					};
 					CF11415D1D37C8C500996BE0 = {
@@ -205,8 +197,8 @@
 			files = (
 				CF1141581D37C8C500996BE0 /* LaunchScreen.storyboard in Resources */,
 				CF1141551D37C8C500996BE0 /* Assets.xcassets in Resources */,
-				0A396A5E1D38B3A20053ABCA /* Sydney Harbour Bridge.gpx in Resources */,
-				0A396A5D1D38B3A20053ABCA /* Bondi Beach.gpx in Resources */,
+				CF2CE15A1D390D7400C21153 /* Routes in Resources */,
+				CF2CE1581D38E47200C21153 /* Sydney Locations in Resources */,
 				CF1141881D37E6A600996BE0 /* London Locations in Resources */,
 				0A396A601D38B3D30053ABCA /* NY Locations in Resources */,
 				CF1141531D37C8C500996BE0 /* Main.storyboard in Resources */,
