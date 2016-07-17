@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A396A601D38B3D30053ABCA /* NY Locations in Resources */ = {isa = PBXBuildFile; fileRef = 0A396A5F1D38B3D30053ABCA /* NY Locations */; };
+		0AB265EB1D3BBF20004CB663 /* Landmarks in Resources */ = {isa = PBXBuildFile; fileRef = 0AB265EA1D3BBF20004CB663 /* Landmarks */; };
 		CF11414E1D37C8C500996BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414D1D37C8C500996BE0 /* AppDelegate.swift */; };
 		CF1141501D37C8C500996BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF11414F1D37C8C500996BE0 /* ViewController.swift */; };
 		CF1141531D37C8C500996BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1141511D37C8C500996BE0 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		0A396A5F1D38B3D30053ABCA /* NY Locations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "NY Locations"; sourceTree = "<group>"; };
+		0AB265EA1D3BBF20004CB663 /* Landmarks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Landmarks; sourceTree = "<group>"; };
 		CF11414A1D37C8C500996BE0 /* XCODE10Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCODE10Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF11414D1D37C8C500996BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF11414F1D37C8C500996BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		CF11414C1D37C8C500996BE0 /* XCODE10Test */ = {
 			isa = PBXGroup;
 			children = (
+				0AB265EA1D3BBF20004CB663 /* Landmarks */,
 				CF2CE1591D390D7400C21153 /* Routes */,
 				CF2CE1571D38E47200C21153 /* Sydney Locations */,
 				0A396A5F1D38B3D30053ABCA /* NY Locations */,
@@ -158,8 +161,8 @@
 				TargetAttributes = {
 					CF1141491D37C8C500996BE0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = X8ZDR3583F;
-						DevelopmentTeamName = "Samuel Simpson";
+						DevelopmentTeam = PDT9S226TJ;
+						DevelopmentTeamName = "Kemal Enver";
 						ProvisioningStyle = Automatic;
 					};
 					CF11415D1D37C8C500996BE0 = {
@@ -201,6 +204,7 @@
 				CF2CE1581D38E47200C21153 /* Sydney Locations in Resources */,
 				CF1141881D37E6A600996BE0 /* London Locations in Resources */,
 				0A396A601D38B3D30053ABCA /* NY Locations in Resources */,
+				0AB265EB1D3BBF20004CB663 /* Landmarks in Resources */,
 				CF1141531D37C8C500996BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
